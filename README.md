@@ -8,4 +8,7 @@ Data source: https://interaktiv.morgenpost.de/corona-virus-karte-infektionen-deu
 - Start docker on your machine.
 - Open your terminal and navigate inside the repositoy.
 - Run `docker-compose up`.
-- Application should be up and running on http://localhost:3000/api/corona
+- Application should be up and running on http://localhost:3000
+- Two endpoints should be working: 
+  - http://localhost:3000/api/corona
+  - http://localhost:3000/api/corona/:countryName ex: Deutschland
