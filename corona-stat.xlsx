@@ -1,4 +1,21 @@
 parent,label,updated,lat,lon,confirmed,recovered,deaths,info,scraper,source,source_url
+Deutschland,Baden-Württemberg,1583740800000,48.606091,9.147687,199,2,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
+Deutschland,Bayern,1583740800000,48.768814,11.658165,256,14,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
+Deutschland,Berlin,1583744400000,52.52045,13.40732,48,0,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
+Deutschland,Brandenburg,1583740800000,52.073056,14.124409,6,0,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
+Deutschland,Bremen,1583740800000,53.029599,8.731851,4,0,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
+Deutschland,Hamburg,1583740800000,53.576158,10.007046,17,0,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
+Deutschland,Hessen,1583740800000,50.758489,9.217535,20,0,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
+Deutschland,Mecklenburg-Vorpommern,1583740800000,53.810625,12.708563,8,0,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
+Deutschland,Niedersachsen,1583740800000,52.518203,9.944255,33,1,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
+Deutschland,Nordrhein-Westfalen,1583744400000,51.510157,7.385313,515,0,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
+Deutschland,Rheinland-Pfalz,1583740800000,50.104033,7.269307,19,1,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
+Deutschland,Saarland,1583740800000,49.41788,6.961042,5,0,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
+Deutschland,Sachsen,1583740800000,51.022904,13.349228,10,0,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
+Deutschland,Sachsen-Anhalt,1583740800000,51.926892,11.68063,0,0,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
+Deutschland,Schleswig-Holstein,1583740800000,54.1882542,9.713017,9,0,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
+Deutschland,Thüringen,1583740800000,50.894378,11.004142,2,0,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
+Deutschland,Repatriierte,1583740800000,null,null,2,2,0,"Wuhan-Rückkehrer, die Anfang Februar mit Bundeswehr ausgeflogen worden",rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
 China,Hubei (Wuhan),1583674983000,30.9756,112.2707,67707,45235,2986,,hopkins-github,2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE,https://github.com/CSSEGISandData/COVID-19
 global,Italien,1583690584000,43,12,7375,622,366,,hopkins-arcgis,Coronavirus COVID-19 Global Cases by Johns Hopkins CSSE,https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
 global,Südkorea,1583744583000,36,128,7478,118,53,,hopkins-arcgis,Coronavirus COVID-19 Global Cases by Johns Hopkins CSSE,https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
@@ -121,7 +138,7 @@ USA,"Nassau County, NY",1583679785000,40.6546,-73.5594,5,0,0,,hopkins-github,201
 USA,"Placer County, Kalifornien",1583532787000,39.0916,-120.8039,5,0,1,,hopkins-github,2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE,https://github.com/CSSEGISandData/COVID-19
 USA,"Unassigned Location, WA",1583451183000,47.7511,-120.7401,5,0,0,,hopkins-github,2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE,https://github.com/CSSEGISandData/COVID-19
 global,Afghanistan,1583643183000,33,65,4,0,0,,hopkins-arcgis,Coronavirus COVID-19 Global Cases by Johns Hopkins CSSE,https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
-global,Bulgarien,1583665997000,42.7339,25.4858,4,0,0,,hopkins-arcgis,Coronavirus COVID-19 Global Cases by Johns Hopkins CSSE,https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
+global,Bulgarien,1583764983000,42.7339,25.4858,4,0,0,,hopkins-arcgis,Coronavirus COVID-19 Global Cases by Johns Hopkins CSSE,https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
 Kanada," Montreal, QC",1583679785000,45.5017,-73.5673,4,0,0,,hopkins-github,2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE,https://github.com/CSSEGISandData/COVID-19
 global,Maldives,1583701990000,3.2028,73.2207,4,0,0,,hopkins-arcgis,Coronavirus COVID-19 Global Cases by Johns Hopkins CSSE,https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
 global,Senegal,1583698988000,14.4974,-14.4524,4,1,0,,hopkins-arcgis,Coronavirus COVID-19 Global Cases by Johns Hopkins CSSE,https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
@@ -183,7 +200,7 @@ global,Jordanien,1583249582000,31.24,36.51,1,0,0,,hopkins-arcgis,Coronavirus COV
 global,Liechtenstein,1583285587000,47.14,9.55,1,0,0,,hopkins-arcgis,Coronavirus COVID-19 Global Cases by Johns Hopkins CSSE,https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
 global,Litauen,1582906983000,55.1694,23.8813,1,0,0,,hopkins-arcgis,Coronavirus COVID-19 Global Cases by Johns Hopkins CSSE,https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
 China,Tibet,1581486182000,31.6927,88.0924,1,1,0,,hopkins-github,2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE,https://github.com/CSSEGISandData/COVID-19
-global,Moldawien,1583644387000,47.4116,28.3699,1,0,0,,hopkins-arcgis,Coronavirus COVID-19 Global Cases by Johns Hopkins CSSE,https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
+global,Moldawien,1583764983000,47.4116,28.3699,1,0,0,,hopkins-arcgis,Coronavirus COVID-19 Global Cases by Johns Hopkins CSSE,https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
 global,Monaco,1582936381000,43.7333,7.4167,1,0,0,,hopkins-arcgis,Coronavirus COVID-19 Global Cases by Johns Hopkins CSSE,https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
 global,Nepal,1581518583000,28.166667,84.25,1,1,0,,hopkins-arcgis,Coronavirus COVID-19 Global Cases by Johns Hopkins CSSE,https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
 global,Nigeria,1583746983000,9.082,8.6753,2,0,0,,hopkins-arcgis,Coronavirus COVID-19 Global Cases by Johns Hopkins CSSE,https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
@@ -254,20 +271,3 @@ USA,"Omaha, NE (From Diamond Princess)",1582583582000,41.2545,-95.9758,0,0,0,,ho
 USA,"Travis, CA (From Diamond Princess)",1582583582000,38.2721,-121.9399,0,0,0,,hopkins-github,2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE,https://github.com/CSSEGISandData/COVID-19
 global,Albanien,1583744583000,41.1533,20.1683,2,0,0,,hopkins-arcgis,Coronavirus COVID-19 Global Cases by Johns Hopkins CSSE,https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
 global,St. Martin,1583750586000,18.0708,-63.0501,2,0,0,,hopkins-arcgis,Coronavirus COVID-19 Global Cases by Johns Hopkins CSSE,https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
-Deutschland,Baden-Württemberg,1583740800000,48.606091,9.147687,199,2,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
-Deutschland,Bayern,1583740800000,48.768814,11.658165,256,14,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
-Deutschland,Berlin,1583744400000,52.52045,13.40732,48,0,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
-Deutschland,Brandenburg,1583740800000,52.073056,14.124409,6,0,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
-Deutschland,Bremen,1583740800000,53.029599,8.731851,4,0,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
-Deutschland,Hamburg,1583740800000,53.576158,10.007046,17,0,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
-Deutschland,Hessen,1583740800000,50.758489,9.217535,20,0,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
-Deutschland,Mecklenburg-Vorpommern,1583740800000,53.810625,12.708563,8,0,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
-Deutschland,Niedersachsen,1583740800000,52.518203,9.944255,33,1,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
-Deutschland,Nordrhein-Westfalen,1583744400000,51.510157,7.385313,515,0,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
-Deutschland,Rheinland-Pfalz,1583740800000,50.104033,7.269307,19,1,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
-Deutschland,Saarland,1583740800000,49.41788,6.961042,5,0,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
-Deutschland,Sachsen,1583740800000,51.022904,13.349228,10,0,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
-Deutschland,Sachsen-Anhalt,1583740800000,51.926892,11.68063,0,0,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
-Deutschland,Schleswig-Holstein,1583740800000,54.1882542,9.713017,9,0,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
-Deutschland,Thüringen,1583740800000,50.894378,11.004142,2,0,0,,rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
-Deutschland,Repatriierte,1583740800000,null,null,2,2,0,"Wuhan-Rückkehrer, die Anfang Februar mit Bundeswehr ausgeflogen worden",rki-spreadsheet,RKI/eigene,https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html

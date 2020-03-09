@@ -3,6 +3,7 @@ const fs = require("fs");
 const axios = require("axios");
 const { CronJob } = require("cron");
 const redisClient = require("./redis-client");
+const { FILENAME } = require("./vars");
 
 const formatData = rawData => {
   const columns = rawData[0];
@@ -13,7 +14,6 @@ const formatData = rawData => {
 };
 
 const saveFileAndCache = async () => {
-  const FILENAME = "corona-stat.xlsx";
   const options = {
     responseType: "arraybuffer",
     url:
@@ -25,12 +25,12 @@ const saveFileAndCache = async () => {
   const file = fs.writeFileSync(FILENAME, data);
 
   // Parse a file
-  const [workSheetsFromFile] = await xlsx.parse(`${__dirname}/${FILENAME}`);
+  const [workSheetsFromFile] = await xlsx.parse(`${__dirname}/../${FILENAME}`);
   const cache = formatData(workSheetsFromFile.data);
   console.log("setting redis cahce");
   redisClient.setAsync("cache", JSON.stringify(cache));
 };
 
-const job = new CronJob("0 */30 * * * *", saveFileAndCache, null, true);
+const job = new CronJob("0 */1 * * * *", saveFileAndCache, null, true);
 
 job.start();
